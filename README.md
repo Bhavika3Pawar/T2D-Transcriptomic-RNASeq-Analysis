@@ -10,7 +10,7 @@
 
 * **Background:** Type 2 Diabetes (T2D) is a complex metabolic disorder marked by progressive pancreatic beta-cell dysfunction and insulin resistance. High-throughput transcriptomics offers a systematic approach to decode the underlying regulatory changes driving this pathology.
 * **Objective:** This project aims to design and implement a computational pipeline to identify differentially expressed genes (DEGs) that serve as high-confidence diagnostic biomarkers or therapeutic targets for T2D.
-* **Methods:** Using an optimized bioinformatics workflow in Python, a structural expression matrix was filtered for low-abundance counts, log-normalized ($\log_2(\text{Counts} + 1)$), and screened for statistical variations using an independent two-sample $t$-test ($|\log_2\text{FC}| > 0.5$, $p < 0.05$).
+* **Methods:** Using an optimized bioinformatics workflow in Python, a structural expression matrix was filtered for low-abundance counts, log-normalized (log_2{Counts} + 1)), and screened for statistical variations using an independent two-sample t-test (log_2 {FC}| > 0.5, p < 0.05$).
 * **Results:** Out of 1,000 evaluated genetic features, 34 genes were isolated as highly significant DEGs. Specifically, **21 genes were significantly upregulated** and **13 genes were significantly downregulated** in the Type 2 Diabetes cohort compared to healthy controls.
 * **Conclusion:** The isolated expression patterns successfully clustered the clinical groups, providing key molecular signatures that bridge raw sequence processing with downstream clinical application and translational research.
 
